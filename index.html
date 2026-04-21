@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Assignment Submission Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Student Assignment Submission</h1>
+
+    <form name="assignment-form" method="POST" data-netlify="true" enctype="multipart/form-data">
+        
+        <input type="hidden" name="form-name" value="assignment-form">
+
+        <label>Name:</label><br>
+        <input type="text" name="name" required><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email" required><br><br>
+
+        <label>Upload Assignment:</label><br>
+        <input type="file" name="file" required><br><br>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+</body>
+</html>
